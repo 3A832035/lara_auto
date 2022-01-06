@@ -1,10 +1,5 @@
 {
     "name": "liao/lara_auto",
-    "autoload": {
-        "psr-4": {
-            "Liao\\LaraAuto\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "liao congkai",
@@ -14,5 +9,10 @@
     "require": {
         "monolog/monolog": "^2.3",
         "nesbot/carbon": "^2.55"
-    }
+    },
+    "autoload":{
+		"psr-4":{
+			"Demo\\":"./src/Demo"
+		}
+	}
 }
